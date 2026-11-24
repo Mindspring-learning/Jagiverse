@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1f7">
+  <meta name="description" content="JAGIVERSE — a little universe of friendship, memories and birthday magic, made for Jagiya.">
+  <title>JAGIVERSE ♡ for Jagiya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Patrick+Hand&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky-decor" aria-hidden="true"><span>✦</span><span>♡</span><span>✧</span><span>☁</span><span>✦</span><span>♡</span></div>
+
+  <section id="gate" class="gate-screen">
+    <div class="gate-card">
+      <div class="gate-mascots" aria-hidden="true"><span class="mascot cat">🐱</span><span class="mascot bunny">🐰</span></div>
+      <p class="eyebrow">A tiny universe, made with love</p>
+      <h1>Welcome to <span>JAGIVERSE</span></h1>
+      <p class="gate-copy">A little place that will always have a corner saved just for you, Jagiya.</p>
+      <form id="gateForm" class="gate-form">
+        <label for="passcode">Our little secret word</label>
+        <div class="input-row"><input id="passcode" type="password" autocomplete="off" placeholder="Enter the secret word" required><button class="button primary" type="submit">Enter ♡</button></div>
+        <p id="gateError" class="form-note" aria-live="polite">Hint: your bestie knows it ✨</p>
+      </form>
+      <p class="tiny-note">A playful entrance, not secure private-content protection.</p>
+    </div>
+  </section>
+
+  <div id="universe" class="site-shell" hidden>
+    <header class="topbar">
+      <a class="wordmark" href="#home" aria-label="JAGIVERSE home">JAGI<span>VERSE</span><small>♡ friendship forever</small></a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="#birthday">Birthday</a><a href="#museum">Memories</a><a href="#rooms">Your rooms</a><a href="#letters">Letters</a><a href="#play">Play zone</a><a href="#yearbook">Yearbook</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">✧ your own little corner of the universe ✧</p>
+          <h1>Hey, <span>Jagiya!</span><br>You're home. ♡</h1>
+          <p>For the loud laughs, the quiet days, the random 2 a.m. thoughts and every little version of you. This universe is yours to revisit, whenever you need it.</p>
+          <div class="hero-actions"><a class="button primary" href="#birthday">Open your birthday surprise</a><a class="button soft" href="#rooms">I need a little something</a></div>
+          <div class="hero-note">best friends since school · 3 years and counting</div>
+        </div>
+        <div class="hero-art" aria-label="Cute illustrated cat and bunny surrounded by stars">
+          <div class="moon">☾</div><div class="spark s1">✦</div><div class="spark s2">✧</div>
+          <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+          <div class="hero-friends"><span class="big-cat">🐱</span><span class="big-bunny">🐰</span></div>
+          <div class="floating-label label-one">your safe place ♡</div><div class="floating-label label-two">made with love</div>
+        </div>
+      </section>
+
+      <section id="birthday" class="section-wrap birthday-section">
+        <div class="section-heading"><p class="eyebrow">the day the universe got brighter</p><h2>Happy Birthday, <span>Jagiya!</span></h2><p>November 25, 2026 · A whole new chapter of you</p></div>
+        <div class="birthday-card">
+          <div class="birthday-sticker sticker-star">✦ 25 ✦</div><div class="birthday-sticker sticker-heart">♡</div>
+          <div class="cake-scene">
+            <div class="cake-sparkles">✧　✦　✧</div>
+            <div class="candles"><span class="candle"><i></i></span><span class="candle"><i></i></span><span class="candle"><i></i></span></div>
+            <div class="cake-top"></div><div class="cake-middle"><span>♡</span><span>♡</span></div><div class="cake-bottom"></div><div class="cake-plate"></div>
+          </div>
+          <div class="birthday-message">
+            <p class="handwritten">A little wish for my favourite human</p>
+            <h3>To my Jagiya,</h3>
+            <p>Happy birthday, Madhu! Three years ago, school gave me a friend and somehow life gave me a whole little family in one person. I hope this new year brings you gentle mornings, ridiculous laughter, brave dreams, unexpected happiness and all the love you deserve.</p>
+            <p>Keep growing, glowing, being dramatic, being silly and being completely, wonderfully you. No matter how many birthdays pass, there will always be a place for you here.</p>
+            <p class="signature">With all my love,<br>your forever bestie ♡</p>
+            <div class="audio-card"><div><b>Press play for my voice ♡</b><small>Add your birthday voice recording later.</small></div><audio controls preload="none" data-audio="birthday" aria-label="Birthday voice message"></audio><span class="audio-status" data-audio-status="birthday">voice note coming soon</span></div>
+          </div>
+          <button id="confettiBtn" class="button primary confetti-button" type="button">Make it rain confetti ✨</button>
+        </div>
+        <div class="wish-strip"><span>🎁</span><span>May your wishes find their way to you.</span><span>🧸</span></div>
+      </section>
+
+      <section id="museum" class="section-wrap">
+        <div class="section-heading"><p class="eyebrow">three years of us</p><h2>The Memory <span>Museum</span></h2><p>Some moments are too precious to stay only in our camera roll.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-dot">♡</div><div class="timeline-card"><span class="year-tag">YEAR ONE</span><h3>When it all began</h3><p>Somewhere between school days and ordinary conversations, we became <em>us</em>.</p><small>📍 Our school-days chapter</small></div></article>
+          <article class="timeline-item"><div class="timeline-dot">✦</div><div class="timeline-card"><span class="year-tag">YEAR TWO</span><h3>Our own kind of chaos</h3><p>More inside jokes, more memories, more reasons to be grateful that we found each other.</p><small>📍 The growing-up-together chapter</small></div></article>
+          <article class="timeline-item"><div class="timeline-dot">♡</div><div class="timeline-card"><span class="year-tag">YEAR THREE</span><h3>Still choosing this friendship</h3><p>Three years in, and the story is nowhere near finished.</p><small>📍 The forever-in-progress chapter</small></div></article>
+        </div>
+        <div class="scrapbook-toolbar"><div><h3>Our scrapbook pages</h3><p>Add photos and edit captions whenever you're ready.</p></div><button id="addMemory" class="button soft" type="button">＋ Add a memory</button></div>
+        <div id="memoryGrid" class="memory-grid"></div>
+      </section>
+
+      <section id="rooms" class="section-wrap rooms-section">
+        <div class="section-heading"><p class="eyebrow">whatever kind of day it is</p><h2>Seven little <span>rooms</span></h2><p>Pick the room that feels like you right now. Stay as long as you need.</p></div>
+        <div class="room-grid">
+          <button class="room-card" data-room="sad"><span>🌧️</span><b>When you're sad</b><small>a soft landing</small></button>
+          <button class="room-card" data-room="happy"><span>🌈</span><b>When you're happy</b><small>let's celebrate</small></button>
+          <button class="room-card" data-room="lonely"><span>🪐</span><b>When you feel lonely</b><small>you are not forgotten</small></button>
+          <button class="room-card" data-room="hug"><span>🧸</span><b>When you need a hug</b><small>come here, bestie</small></button>
+          <button class="room-card" data-room="proud"><span>🏆</span><b>When you feel proud</b><small>your moment matters</small></button>
+          <button class="room-card" data-room="sleep"><span>🌙</span><b>When you can't sleep</b><small>slow down, little star</small></button>
+          <button class="room-card room-wide" data-room="need"><span>💌</span><b>When you need me</b><small>one tap closer</small></button>
+        </div>
+        <div id="roomDisplay" class="room-display" aria-live="polite"><div class="room-empty">♡ Choose a room above. I'll meet you there. ♡</div></div>
+      </section>
+
+      <section id="letters" class="section-wrap letters-section">
+        <div class="section-heading"><p class="eyebrow">little notes for later</p><h2>Open when... <span>♡</span></h2><p>Tap an envelope. There's a tiny piece of love waiting inside.</p></div>
+        <div class="envelope-grid" id="envelopeGrid"></div>
+        <div id="letterContent" class="letter-content" aria-live="polite"><p class="handwritten">Your letter will appear here ♡</p></div>
+      </section>
+
+      <section id="play" class="section-wrap play-section">
+        <div class="section-heading"><p class="eyebrow">serious business: being unserious</p><h2>The Friendship <span>Play Zone</span></h2><p>For when you need a distraction, a giggle or a reminder that you're loved.</p></div>
+        <div class="play-grid">
+          <article class="play-card"><span class="play-icon">🎀</span><h3>Bestie check</h3><p>How well do you know our little universe?</p><div id="quizArea"><p class="quiz-question">Which chapter started our friendship?</p><div class="quiz-options"><button data-answer="school">School days</button><button data-answer="internet">The internet</button><button data-answer="holiday">A holiday</button></div><p id="quizResult" class="form-note" aria-live="polite"></p></div></article>
+          <article class="play-card"><span class="play-icon">🎁</span><h3>Mystery gifts</h3><p>Pick a wrapped surprise. No peeking!</p><div class="gift-row"><button class="gift" data-gift="0" aria-label="Open mystery gift one">🎁</button><button class="gift" data-gift="1" aria-label="Open mystery gift two">🎀</button><button class="gift" data-gift="2" aria-label="Open mystery gift three">🎁</button></div><p id="giftResult" class="form-note" aria-live="polite"></p></article>
+          <article class="play-card"><span class="play-icon">🎡</span><h3>Bestie wheel</h3><p>Let the universe decide your next tiny mission.</p><div id="wheel" class="wheel">♡</div><button id="spinBtn" class="button primary" type="button">Spin the wheel</button><p id="wheelResult" class="form-note" aria-live="polite"></p></article>
+          <article class="play-card"><span class="play-icon">💌</span><h3>Random love note</h3><p>A reminder, delivered whenever you ask.</p><div id="randomNote" class="random-note">Tap below for a little reminder ♡</div><button id="noteBtn" class="button soft" type="button">Send me a note</button></article>
+        </div>
+        <div class="secret-box"><span>🔐</span><div><b>A tiny secret is hiding here...</b><p>Try tapping the little star five times.</p></div><button id="secretStar" type="button" aria-label="Tap the secret star">✦</button><p id="secretMessage" aria-live="polite"></p></div>
+      </section>
+
+      <section id="yearbook" class="section-wrap yearbook-section">
+        <div class="section-heading"><p class="eyebrow">the story keeps growing</p><h2>Our Annual <span>Birthday Book</span></h2><p>Every birthday gets its own page. Yesterday's memories stay safe.</p></div>
+        <div class="year-tabs" id="yearTabs"></div>
+        <div id="yearChapter" class="year-chapter"></div>
+        <div class="year-editor"><h3>Add to this year's chapter</h3><label for="yearMemory">A moment, wish or little detail</label><textarea id="yearMemory" rows="3" placeholder="What should we remember about this birthday?"></textarea><button id="saveYearMemory" class="button primary" type="button">Save this page ♡</button><p id="yearSaveStatus" class="form-note" aria-live="polite"></p></div>
+      </section>
+    </main>
+
+    <footer class="footer"><div class="footer-doodle">🐻　🐱　🐰</div><h2>There will always be room for you here.</h2><p>JAGIVERSE · made for Madhu, aka Jagiya · since our school days ♡</p><a href="#home">Back to the stars ↑</a></footer>
+  </div>
+
+  <div id="modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button id="modalClose" class="modal-close" aria-label="Close">×</button><div id="modalBody"></div></div></div>
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
